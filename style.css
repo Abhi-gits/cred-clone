@@ -81,7 +81,7 @@ body{
     overflow: hidden;
 }
 
-.section-2-comtainer img {
+.section-2-container img {
     position: absolute;
     left: calc(50%, -198);
     top: 6%;
