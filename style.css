@@ -183,9 +183,26 @@ body{
 }
 
 .section-4-right {
+    /* height: 100%; */
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+}
+
+.section-4-right-placeholder{
+    max-width: 322px;
+    max-height: 480px;
+    position: sticky;
+    box-shadow: rgb(250 250 250 / 60%) 0px -5px 6px 0px inset,rgb(38 37 37 / 24%) 4px 6px 11px 1px inset;
+    border-radius: 46px;
+    padding: 16px 14px;
+}
+
+.section-4-right-placeholder img {
+    width: 100%;
+    height: 100%;
+    border-radius: 46px;
+    object-fit: cover;
 }
