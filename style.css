@@ -23,10 +23,17 @@ body{
     max-height: 66px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .section-1-header-logo img{
     height: 100%;
+}
+
+.section-1-header-options {
+    display: flex;
+    align-items: center;
+    
 }
 
 .section-1-header-options div{
